@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal Nick & The Painted Isles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 class="game-title">Normal Nick<br>& The Painted Isles</h1>
+            
+            <!-- Trailer Embed Placeholder (Responsive) -->
+            <div class="video-container">
+                <!-- Replace the src with your actual YouTube embed link once uploaded -->
+                <iframe src="https://www.youtube.com/embed/PLACEHOLDER" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- Demo Link -->
+            <div class="cta-container">
+                <a href="#" class="demo-btn">Play the Demo</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="intro">
+                <h2>Meet Normal Nick...</h2>
+                <p>Abducted by a crew of well-meaning but hopelessly forgetful alien scientists, Nick ended up as an accidental stowaway on their journey back home. Now, he's stranded on a bizarre alien island light-years from Earth. He doesn't know how to pilot a starship, he doesn't know how to survive the local fauna, and he definitely doesn't know how to pay taxes in this quadrant.</p>
+                <p>All he has is his absolute normalcy, a growing deck of tactical cards, and a desperate need to get home.</p>
+            </section>
+
+            <section class="overview">
+                <h2>Game Overview</h2>
+                <p><strong>Normal Nick & The Painted Isles</strong> is a strategic, turn-based deckbuilding rogue-lite that fuses traditional card-crafting combat with a dynamic, Final Fantasy X-style Conditional Turn Battle (CTB) timeline. Outsmart alien monstrosities, manipulate the turn order, and manage your Action Points to help an ordinary guy survive an extraordinary predicament.</p>
+            </section>
+
+            <section class="features">
+                <h2>Key Features</h2>
+                <ul>
+                    <li><strong>Dynamic CTB Timeline:</strong> Leave rigid turn structures behind. Speed dictates how frequently units progress on a real-time tracking timeline, making positioning and timing critical to survival.</li>
+                    <li><strong>Carry-Over Action Points:</strong> Plan your turns with deep tactical foresight. AP stacks and carries over turn-to-turn up to a maximum cap, allowing you to save up for devastating combos.</li>
+                    <li><strong>Robust RPG Progression:</strong> Level up to scale core stats like HP, Strength, Wisdom, Speed, and Luck, and customize your build with milestone Perk Picks as you advance.</li>
+                    <li><strong>Complex Status Engine:</strong> Master a symmetrical combat engine featuring tactical effects like Poison, Bound, Silence, Wisdom Down, Blind, and Strength Down that affect enemies and players alike.</li>
+                    <li><strong>Perilous Adventure Maps:</strong> Navigate four increasingly complex maps filled with split paths, normal combat, elite encounters, safe campfires, choose-your-adventure events, and hidden mystery nodes.</li>
+                    <li><strong>Permanent Meta-Progression:</strong> Death isn't the end of the road. Cash out your collected XP between runs to unlock permanent upgrades, giving Nick a better fighting chance on his next attempt.</li>
+                </ul>
+                <p class="tagline">Can an ordinary guy survive an alien world, or is Nick destined to be a permanent cosmic tourist?</p>
+            </section>
+        </main>
+
+        <footer>
+            <h3>Work In Progress...</h3>
+            <ul class="wip-list">
+                <li>Scrap Bin - not functional</li>
+                <li>Scrap/XP - not functional</li>
+                <li>Settings - not functional</li>
+                <li>Level Up - not functional</li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+</html>
