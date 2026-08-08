@@ -119,6 +119,7 @@ header {
 /* Accent piece of the title, e.g. "& The Painted Isles" */
 .title-accent {
   font-family: 'Bahiana', sans-serif;
+  font-size: 2.5em;
 }
 
 .subtitle {
