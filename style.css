@@ -28,12 +28,10 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #1a1a1a; /* fallback while image loads */
+  background-color: #1a1a1a; /* fallback */
   background-image: url('Assets/wallpaper.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* optional: keeps it static while scrolling */
+  background-repeat: repeat;
+  background-size: 256px 256px; /* match the tile's native size */
   color: #f0f0f0;
 }
 
