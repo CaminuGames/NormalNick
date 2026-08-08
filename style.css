@@ -116,10 +116,11 @@ header {
   font-size: 3.5rem;
 }
 
-/* Accent piece of the title, e.g. "& The Painted Isles" */
 .title-accent {
   font-family: 'Bahiana', sans-serif;
-  font-size: 2.5em;
+  font-size: 4.5rem; /* Increased size and changed to rem for consistency */
+  display: block; /* Ensures it sits on its own line neatly */
+  margin-top: -0.5rem; /* Optional: Pulls it slightly closer to the main title */
 }
 
 .subtitle {
