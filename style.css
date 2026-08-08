@@ -118,7 +118,7 @@ header {
 
 .title-accent {
   font-family: 'Bahiana', sans-serif;
-  font-size: 4.5rem; /* Increased size and changed to rem for consistency */
+  font-size: 1.85rem; /* Increased size and changed to rem for consistency */
   display: block; /* Ensures it sits on its own line neatly */
   margin-top: -0.5rem; /* Optional: Pulls it slightly closer to the main title */
 }
