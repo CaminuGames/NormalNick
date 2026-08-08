@@ -285,3 +285,58 @@ footer.panel {
   box-shadow: 0 0 6px rgba(250, 210, 1, 0.2); /* Shadow using new yellow color */
   flex-shrink: 0;
 }
+
+/* ==========================================================================
+   Image & Text Split Layout
+   ========================================================================== */
+
+.split-layout {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.text-col {
+  flex: 1; /* Takes up remaining space on the left */
+}
+
+.image-col {
+  flex: 0 0 40%; /* Forces the image column to take exactly 40% of the width */
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* Space between screenshots if there are multiple */
+}
+
+.panel-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid rgba(250, 210, 1, 0.35); /* Yellow border to match your theme */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive adjustment for mobile screens */
+@media (max-width: 850px) {
+  .split-layout {
+    flex-direction: column;
+  }
+  
+  .image-col {
+    width: 100%;
+    flex: 1 1 auto;
+  }
+
+  .screenshots {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .screenshots .panel-img {
+    width: calc(50% - 0.625rem); /* If on mobile, put screenshots side by side */
+  }
+}
+@media (max-width: 500px) {
+  .screenshots .panel-img {
+    width: 100%; /* Full width on very small screens */
+  }
+}
