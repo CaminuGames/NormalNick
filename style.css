@@ -27,8 +27,7 @@ html, body {
   width: 100%;
   background-color: #1a1a1a;
   background-image: url('BackGround.png');
-  background-repeat: repeat;
-  background-size: 256px 256px;
+  background-size: 2560px 1440px;
   color: #f0f0f0;
 }
 
