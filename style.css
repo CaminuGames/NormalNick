@@ -1,6 +1,7 @@
 /* ==========================================================================
    Custom Font Faces
    ========================================================================== */
+
 /* Title Font */
 @font-face {
   font-family: 'ARB';
@@ -9,18 +10,20 @@
   font-style: normal;
   font-display: swap;
 }
+
 /* Body Font */
 @font-face {
   font-family: 'OpsilonItalic';
   src: url('Fonts/OpsilonItalic-3lm9p.ttf') format('truetype');
   font-weight: normal;
-  font-style: italic;
+  font-style: italic; 
   font-display: swap;
 }
 
 /* ==========================================================================
    Base Elements
    ========================================================================== */
+
 html, body {
   margin: 0;
   padding: 0;
@@ -42,9 +45,10 @@ body, p, span, a, li, button, input, textarea {
 /* ==========================================================================
    Typography
    ========================================================================== */
+
 h1, h2, h3, h4, h5, h6, .title-text {
   font-family: 'ARB', sans-serif;
-  font-weight: normal;
+  font-weight: normal; 
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -61,17 +65,19 @@ p {
 }
 
 a {
-  color: #ff9900;
+  color: #fad201; /* New yellow color */
   text-decoration: none;
   transition: color 0.3s ease;
 }
+
 a:hover {
-  color: #ffcc00;
+  color: #ffe14c; /* Brighter yellow hover color */
 }
 
 /* ==========================================================================
    Layout & Utility
    ========================================================================== */
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -84,13 +90,14 @@ a:hover {
 }
 
 .highlight {
-  color: #ff9900;
+  color: #fad201; /* New yellow color */
   font-family: 'ARB', sans-serif;
 }
 
 /* ==========================================================================
    Header / Hero
    ========================================================================== */
+
 header {
   text-align: center;
   padding-bottom: 2rem;
@@ -98,12 +105,12 @@ header {
 
 .game-title {
   font-size: 3.5rem;
-  text-shadow: 0 0 18px rgba(255, 153, 0, 0.35);
+  text-shadow: 0 0 18px rgba(250, 210, 1, 0.35); /* Shadow using new yellow color */
 }
 
 .subtitle {
   font-style: italic;
-  color: #ff9900;
+  color: #fad201; /* New yellow color */
   font-size: 1.1rem;
   letter-spacing: 0.02em;
   margin-bottom: 2.5rem;
@@ -116,8 +123,8 @@ header {
   font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #ff9900;
-  border: 1px solid rgba(255, 153, 0, 0.4);
+  color: #fad201; /* New yellow color */
+  border: 1px solid rgba(250, 210, 1, 0.4); /* Border using new yellow color */
   border-radius: 999px;
   padding: 0.25rem 0.9rem;
   margin-bottom: 0.9rem;
@@ -126,7 +133,7 @@ header {
 /* Panels — translucent cards so text stays readable over the background */
 .panel {
   background: rgba(10, 10, 10, 0.68);
-  border: 1px solid rgba(255, 153, 0, 0.18);
+  border: 1px solid rgba(250, 210, 1, 0.18); /* Border using new yellow color */
   border-radius: 14px;
   padding: 2rem 2.25rem;
   margin-bottom: 2rem;
@@ -141,6 +148,7 @@ header {
 /* ==========================================================================
    Playable Demo
    ========================================================================== */
+
 .play-container {
   text-align: center;
   margin: 0 0 2.5rem;
@@ -154,9 +162,9 @@ header {
   display: inline-block;
   padding: 10px;
   background: rgba(10, 10, 10, 0.75);
-  border: 1px solid rgba(255, 153, 0, 0.35);
+  border: 1px solid rgba(250, 210, 1, 0.35); /* Border using new yellow color */
   border-radius: 10px;
-  box-shadow: 0 0 30px rgba(255, 153, 0, 0.12);
+  box-shadow: 0 0 30px rgba(250, 210, 1, 0.12); /* Shadow using new yellow color */
 }
 
 .play-frame iframe {
@@ -179,6 +187,7 @@ header {
 /* ==========================================================================
    Trailer video
    ========================================================================== */
+
 .video-container {
   position: relative;
   width: 100%;
@@ -188,7 +197,7 @@ header {
   height: 0;
   overflow: hidden;
   border-radius: 10px;
-  border: 1px solid rgba(255, 153, 0, 0.18);
+  border: 1px solid rgba(250, 210, 1, 0.18); /* Border using new yellow color */
 }
 
 .video-container iframe {
@@ -203,6 +212,7 @@ header {
 /* ==========================================================================
    Features list
    ========================================================================== */
+
 .features ul {
   list-style: none;
   padding: 0;
@@ -220,18 +230,19 @@ header {
   content: '▸';
   position: absolute;
   left: 0;
-  color: #ff9900;
+  color: #fad201; /* New yellow color */
 }
 
 .tagline {
   font-style: italic;
-  color: #ff9900;
+  color: #fad201; /* New yellow color */
   margin-bottom: 0;
 }
 
 /* ==========================================================================
    Footer / WIP status
    ========================================================================== */
+
 footer.panel {
   text-align: left;
 }
@@ -256,6 +267,6 @@ footer.panel {
   height: 8px;
   border-radius: 50%;
   background: #666;
-  box-shadow: 0 0 6px rgba(255, 153, 0, 0.2);
+  box-shadow: 0 0 6px rgba(250, 210, 1, 0.2); /* Shadow using new yellow color */
   flex-shrink: 0;
 }
